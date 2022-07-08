@@ -21,8 +21,6 @@ public class Auth {
 
     private String employeeId;
 
-    
-
     public Auth(int id, String emailAddress, String password, String employeeId) {
         this.id = id;
         this.emailAddress = emailAddress;

@@ -3,6 +3,7 @@ package com.xnet.auth.controllers;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.xnet.auth.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -37,5 +38,14 @@ public class AuthController {
         return map1;
 
     }
+
+//    @PostMapping("/create")
+//    public String createNewEmployee(@RequestBody Object object) {
+//        Auth auth = (Auth) object;
+//        Employee employee = (Employee) object.get
+//         return object.toString();
+//    }
+
+
 
 }
